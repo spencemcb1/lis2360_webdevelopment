@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/* CSS Document created by Spencer McBride, March 22, 2019 */
+
+body {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 900;
+	line-height: 21px;
+	color: #FFFFFF;
+	background-color: #1a1a1a;
+	padding: 0 40px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.115em;
+	color: #CCCCCC;
+}
+
+blockquote {
+	text-align: center;
+	display: block;
+	outline: 3px solid #5d091a;
+	padding: 2px;
+	margin: 2px;
+	border:2px;
+	letter-spacing:.115em;
+}
+h1 {
+	font-size: 48px;
+	padding: 4px 0;
+	font-variant: small-caps;
+	letter-spacing: .25em;
+	line-height: 1.5em;
+	text-align: center;
+	text-shadow: 5px 5px 5px #000;
+
+}
+h2 {
+	font-size: 26px;
+	padding: 6px;
+	font-variant: small-caps;
+	letter-spacing: 0.5em;
+	background-color: #5d091a;
+	text-align: center;
+}
+h3 {
+	font-size: 17px;
+	letter-spacing: 0.5em;
+	border-bottom-width: 3px;
+	border-bottom-style: inset;
+	border-bottom-color: #5d091a;
+	padding: 10px 0;
+	font-variant: small-caps;
+	font-style: italic;
+
+}
+
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #8d0e27;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #8d0e27;
+	text-decoration: none;
+}
+a:hover {
+	color: #808080;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	margin-left: 12px;
+}
+ol {
+	margin-left: 14px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #5d091a 1px;
+	background-color: #000;
+}
+td {
+	padding: 6px;
+	border: solid #5d091a 1px;
+}
+
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #000 1px;
+}
+
+img {
+	border: solid #5d091a 1px;
+	padding: 8px;
+	margin: 8px;
+}
+iframe {
+	border: solid #5d091a 1px;
+	padding: 8px;
+	margin: 8px;
+}
