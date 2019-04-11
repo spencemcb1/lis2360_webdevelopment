@@ -1,0 +1,166 @@
+@charset "UTF-8";
+/* CSS Document created by Spencer McBride, June 7, 2018 */
+
+body {
+	margin: 0;
+	padding: 0 40px;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 900;
+	line-height: 21px;
+	color: #FFFFFF;
+	background-color: #5d091a;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.115em;
+	color: #CCCCCC;
+	padding: 0 40px;
+}
+
+blockquote {
+	text-align: center;
+}
+h1 {
+	font-size: 48px;
+	padding: 0 40px;
+	font-variant: small-caps;
+	letter-spacing: .5em;
+	line-height: 2em;
+	text-align: center;
+	text-shadow: 5px 5px 5px #000;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+h2 {
+	font-size: 26px;
+	padding: 0 40px;
+	font-variant: small-caps;
+	letter-spacing: 0.5em;
+	background-color: #5d091a;
+	text-align: center;
+}
+h3 {
+	font-size: 17px;
+	letter-spacing: 0.5em;
+	border-bottom-width: 3px;
+	border-bottom-style: inset;
+	border-bottom-color: #5d091a;
+	padding: 0 40px;
+	font-variant: small-caps;
+	font-style: italic;
+
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #8d0e27;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #8d0e27;
+	text-decoration: none;
+}
+a:hover {
+	color: #808080;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	margin-left: 12px;
+}
+ol {
+	margin-left: 60px;
+}
+ol li {
+	padding-left: 0px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #5d091a 1px;
+	background-color: #000;
+}
+td {
+	padding: 6px;
+	border: solid #5d091a 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #000 1px;
+}
+
+img {
+	border: solid #5d091a 1px;
+	padding: 8px;
+	margin: 8px;
+}
+iframe {
+	border: solid #8d0e27 1px;
+	padding: 8px;
+	margin: 8px;
+}
+/* DIV STYLES FOR PAGE LAYOUT */
+
+#container{
+	width: 950px;
+	margin: 0 auto;
+	border: 10px ridge #000;
+	background-color: #1a1a1a;
+	overflow: hidden;
+}
+
+#header{
+	width: 100%;
+}
+
+#header img{
+	border: #1a1a1a;
+	width: 868px;
+}
+
+#header h1{
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+#content{
+	width: 600px;
+	padding-bottom: 10px;
+	float: left;
+}
+
+#content table{
+	margin-left: 40px;
+}
+
+#sidebar{
+	width: 200px;
+	float: left;
+	margin: 50px;
+}
+
+#sidebar p{
+	padding: 10px;
+	background: #000;
+	border: 1px solid #5d091a;
+	border-radius: 12px;
+	box-shadow: 10px 10px 5px #888;
+	text-align: center;
+}
+
+#sidebar table{
+	width: 150px;
+	height: 175px;
+}
+
+#footer{
+	width: 100%;
+	clear: both;
+}
