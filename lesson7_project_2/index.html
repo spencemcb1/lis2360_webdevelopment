@@ -1,0 +1,277 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <!-- Name: Spencer McBride -->
+    <!-- Date of Completion: 4-14-19 -->
+    <meta charset = "UTF-8">
+    <meta name = "author" content = "Spencer McBride">
+    <meta name = "description" content = "The history and basics of Computer Networks">
+    <meta name = "keywords" content = "Computers, Networks, Computer Networks, Information, Technology">
+    
+    <link href = "style.css" rel = "stylesheet" type = "text/css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+    
+    <title>Computer Networks</title>
+
+</head>
+<body>
+    <section id = "splash">     <!-- splash section provides background for navbar and title-page -->
+        <!--Navigation Bar holds Navigation Buttons -->
+        <div id="navbar">
+            <div class="container">  <!-- container keeps everything aligned and centered no matter what the window size -->
+                <ul  id="menu">
+                    <!-- button class provides button-like appearance and scrolling javascript (see bottom of html code) -->
+                    <li><a href="#overview" class="button">Overview</a></li>
+                    <li><a href="#video" class="button">Video</a></li>
+                    <li><a href="#photos" class="button">Photos</a></li>
+                    <li><a href="#footer" class="button">Author & References</a></li>
+                </ul>
+            </div> <!-- end container -->
+        </div> <!-- end navbar -->
+        
+                <!-- Title page -->
+        <div id="title-page"> <!-- Used to style the title and subtitle -->
+            <div class="container"> 
+                <h1>Computer Networks</h1>
+                <h3>by Spencer McBride</h3>
+            </div> <!-- end container -->
+        </div> <!-- end title-page -->
+    </section>
+
+<section id = "overview">
+    <div class = "container">
+        <p >Computer Networks surround everyone, whether it be in home or at the office. One may log in to a client, have access to all of their files from the local server, send a document to the printer a few rooms over, all without moving from the desk. All of these actions were done through the location's computer network. The same also happens when he walks in the front door of his home. His phone connects to his home Wi-fi, asks his Amazon Alexa what plans he has for the night, and finishes up a file from work that is accessible through his works' server. Computer Networks connect everyone with everything through a series of devices that constantly communicate with each other and provide access to information from anywhere with an internet connection. 
+    </p>
+    
+    <p><em>Techopedia</em> defines "Computer Networking" as "an engineering discipline that aims to study and analyze the communication process among various computing devices or computer systems that are linked, or networked, together to exhchange information and share resources." Additionally, there are some other terms that correlate with computer systems. An Open Systemis  a system which is connected to the network and is ready for communicaiton. On the other hand, a Closed System is not connected to the network and cannot be communicated with. With Networks come Network Devices that allow other devices to connect to a network, i.e. routers, switches, hubs, bridges, wireless routers, and wireless bridges. 
+    </p>
+    
+    <h3>Most Powerful Network Companies</h3>
+    <ol>
+        <li>Cisco</li>
+        <li>HPE/Aruba</li>
+        <li>Juniper</li>
+        <li>Huawei</li>
+        <li>Arista</li>
+        <li>VMware</li>
+        <li>Riverbed</li>
+        <li>Netscout</li>
+        <li>Extreme Networks</li>
+        <li>Dell/EMC</li>
+    </ol>
+    
+    <p> With the vastness of computer systems, there has to be some form of management and standards in placec to keep everything runnign smoothly. The OSI, or Operation Systems Interconnection, is a reference model that specifies standards for communications protocols and also the functionalities of each layer. Protocols are a set of rules or algorithms which define the way how two entities can communicate across the network and there exists different protocol defined at each layer of OSI model, examples of protocals are TCP, IP, UDP, ARP, DHCP, FTP, etc. 
+    </p>
+    
+    <p> But how exactly does information get from one place to another, say from Google's pool of information to a home computer? The Internet, which uses TCP/IP protocols, provides internet connection through an Internet Service Provider, or ISP. The ISP maintains the DNS cache, and will send and receive packets of information back and forth between itself and the router. The router will then send the information to a node, which has a unique IP address, that is connected to the router, like a phone, tablet, or home computer. 
+    </p>
+    
+    <!-- Table Section -->
+    
+    <h3><strong> A Brief History of Computer Networks</strong></h3>
+    
+    <table border = "1" cellpadding = "12" cellspacing = "0">
+        
+        <tr>
+            <th>Year</th>
+            <th>Event</th>
+        </tr>
+        
+        <tr>
+            <td>1961</td>
+            <td>Leonard Kleinrock, in his paper titled "Information Flow in Large Communication Nets", proposes the idea of ARPANET, the earliest computer network</td>
+        </tr>
+        
+        <tr>
+            <td>1965</td>
+            <td>Donald Davies coins the term "packet"</td>
+        </tr>
+        
+        <tr>
+            <td>1966</td>
+            <td>Development of ARPANET begins, UCLA and SRI become the first 2 nodes, ARPANET is the first computer network to use packet switching</td>
+        </tr>
+        
+        <tr>
+            <td>1969</td>
+            <td>The Internet is officially born</td>
+        </tr>
+        
+        <tr>
+            <td>1971</td>
+            <td>The first email is sent by Ray Tomlinson</td>
+        </tr>
+        
+        <tr>
+            <td>1973</td>
+            <td>Robert Metcalfe develops ethernet</td>
+        </tr>
+        
+        <tr>
+            <td>1973</td>
+            <td>SATNET, the firs international network connection, launches</td>
+        </tr>
+        
+        <tr>
+            <td>1976</td>
+            <td>The first true IP router is developed by Ginny Strazisar</td>
+        </tr>
+        
+        <tr>
+            <td>1981</td>
+            <td>IPv4 is officially defined in RFC 791</td>
+        </tr>
+        
+        <tr>
+            <td>1983</td>
+            <td>Paul Mockapetris and Jon Pastel implement the first DNS</td>
+        </tr>
+        
+        <tr>
+            <td>1988</td>
+            <td>Details abotu the first firewall are published</td>
+        </tr>
+        
+        <tr>
+            <td>1996</td>
+            <td>IPv6 is introduced</td>
+        </tr>
+        
+        <tr>
+            <td>1997-2009</td>
+            <td>Wi-Fi standards are developed and released; 1997 - 802.11, 1999 - 802.11a and 802.11b, 2003 - 802.11g, 2009 - 802.11n</td>
+        </tr>
+        
+        <tr>
+            <td>1999-2018</td>
+            <td>Encryption protocols are introduced; 1999 - WEP, 2003 - WPA and WPA2, 2018 -  WPA3</td>
+        </tr>
+    
+    </table>
+    </div>
+    
+</section>
+
+<section id = "video">
+    <div class = "container">
+        <iframe width="100%" height="580px" src="https://www.youtube.com/embed/3QhU9jd03a0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>    
+    </div>
+</section>
+
+<section id = "photos">
+    <div class = "container">
+        <p>&nbsp;</p>
+        <p style="text-align:center;"><em>Cisco System Headquarters (Building 10), San Jose</em></p>
+        <p style="text-align:center;"><img src = "images/cisco_systems_headquarters.jpg" alt = "Google Glass" width = "750"  ></p>
+        <p>&nbsp;</p>
+        <p style="text-align:center;"><em>ARPANET System Map from 1973</em></p>
+        <p style="text-align:center;"><img  src = "images/arpanet_map_1973.jpg" alt = "Navigation and Augmented Reality" width = "75%"></p>
+        
+        <p>&nbsp;</p>
+        <p style="text-align:center;"><em>ARPANET's First Router</em></p>
+        <p style="text-align:center;"><img src = "images/first_router.jpg" alt = "A Dinosaur in Central Park" height = "700" ></p>
+    </div>
+</section>
+
+<section id = "footer">
+    <div class = "container">
+        <h2 style = "text-align:center;"><em>About the Author</em></h2>
+  <p style = "text-align:center;"><img src = "images/img_0927.jpg" alt = "Author Photograph" height = "200"></p>
+  <p style = "text-align:center;">Spencer McBride attends Florida State University and plans to study Information Technology and go into the System and Network Field. Making a website about the basics of Computer Networks should lay the groundwork for a future in the field of Networks and Information Technology.</p>
+  
+  <hr>
+
+  <div class = "half_container">
+      <!-- ===================REFERENCES====================== -->
+    <p><strong>References</strong></p>    
+    
+<h3><em>References</em></h3>
+                
+    <ul>
+        <li><em>AZQUOTES</em></li>
+        
+            <ul>
+                <li><a href = "https://www.azquotes.com/quote/1395994" target = "blank">"AZQUOTES"</a></li>
+            </ul>
+        
+        <li><em>Computer Hope</em></li>
+        
+            <ul>
+                <li><a href = "https://www.computerhope.com/history/network.htm" target = "blank">"Computer Networking History</a></li>
+            </ul>
+            
+        <li><em>GeeksforGeeks</em></li>
+        
+            <ul>
+                <li><a href = "https://www.geeksforgeeks.org/basics-computer-networking/" target = "blank">"Basics of Computer Networking</a></li>
+            </ul>
+            
+        <li><em>Medium</em></li>
+            
+            <ul>
+                <li><a href = "https://medium.freecodecamp.org/computer-networks-and-how-to-actually-understand-them-c1401908172d" target = "blank"> "What computer networks are and how to actually understand them"</a></li>
+                <li>Sumedh Nimkadre</li>
+                
+            </ul>
+        
+        <li><em>NETWORKWORLD</em></li>
+        
+            <ul>
+                <li><a href = "https://www.networkworld.com/article/3211410/lan-wan/the-10-most-powerful-companies-in-enterprise-networking.html" target = "blank"> "The 10 most powerful companies in enteprise networking"</a></li>
+                <li>Jon Gold</li>
+            </ul>
+            
+        <li><em>Techopedia</em></li>
+        
+            <ul>
+                <li><a href = "https://www.techopedia.com/definition/25598/computer-networking" target = "blank">"Computer Networking"</a></li>
+            </ul>
+            
+        <li><em>Images</em></li>
+        
+            <ul>
+                <li><a href = "https://commons.wikimedia.org/wiki/Category:Images" target = "blank">Wikimedia Commons</a></li>
+            </ul>
+                
+     </ul>
+  </div>
+  
+  <div class = "half_container">
+      <table id = "color_scheme" width="250px">
+        <tr>
+          <td bgcolor = "#ffffff">&nbsp;</td>
+        </tr>
+        
+        <tr>
+          <td bgcolor = "#777777">&nbsp;</td>
+        </tr>
+        
+        <tr>
+          <td bgcolor = "#4d4d4d">&nbsp;</td>
+        </tr>
+        
+        <tr>
+          <td bgcolor = "#6C1117">&nbsp;</td>
+        </tr>
+          
+        <tr>
+          <td bgcolor = "#390000">&nbsp;</td>
+        </tr>
+        
+        <tr>
+          <td bgcolor = "#000000">&nbsp;</td>
+        </tr>
+          
+      </table>
+  </div>
+
+    </div>
+    <hr>
+    <p style = "text-align: center; font-size: 14px;">Copyright, 2018, <a href="mailto:sam18c@my.fsu.edu">Spencer McBride</a></p>
+</section>
+
+</body>
+</html>
